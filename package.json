@@ -1,0 +1,25 @@
+{
+  "name": "learningvue",
+  "version": "1.0.0",
+  "description": "Learning Vue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicole0169/learningvue.git"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "miaomin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicole0169/learningvue/issues"
+  },
+  "homepage": "https://github.com/nicole0169/learningvue#readme",
+  "devDependencies": {
+    "webpack-cli": "^2.0.14"
+  }
+}
