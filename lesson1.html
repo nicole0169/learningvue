@@ -7,14 +7,20 @@
 </head>
 <body>
 <div id="app">
-    {{message}}
+    <input v-model="parentMsg"><br>
+    <my-child v-bind:my-message="parentMsg"></my-child>
 </div>
 </body>
 <script>
+    Vue.component('my-child', {
+        props: ['myMessage'],
+        template: '<span>{{myMessage}}</span>'
+    })
+
     var app = new Vue({
         el: '#app',
         data: {
-            message: 'Lesson 1.'
+            parentMsg: 'Message from parent.'
         }
     });
 </script>
